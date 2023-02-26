@@ -1,8 +1,31 @@
 .navBar {
+  color: rgb(129, 5, 5);
+  background-color: rgb(199, 199, 199);
+  margin-bottom: 1em;
+  max-width: 100vw;
+  margin: auto;
+}
+
+.navHeading {
+  text-align: center;
+  margin: auto;
+}
+
+.navLinkFlex {
+  display: flex;
+  justify-content: center;
 }
 
 .navItem {
-  padding: 2px;
-  margin: 5px;
+  padding: 0.5em;
+  margin: 0.5em;
+  min-width: 7em;
   cursor: pointer;
+  border-radius: 0.5em;
+  background-color: rgb(255, 110, 110);
+  text-align: center;
+}
+
+.navItem:hover {
+  background-color: chartreuse;
 }
