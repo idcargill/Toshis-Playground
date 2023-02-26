@@ -10,7 +10,6 @@ const Home = () => (
       <meta content="all things toshi" name="a playground for toshi" />
       <link href="/heart.svg" rel="icon" />
     </Head>
-
     <main className={style.pageContainer}>
       <HomePageLayout />
     </main>
