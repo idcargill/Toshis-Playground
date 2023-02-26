@@ -7,7 +7,7 @@ const Home = () => (
   <>
     <Head>
       <title>Toshi Land</title>
-      <meta content="Project starter" name="description" />
+      <meta content="all things toshi" name="a playground for toshi" />
       <link href="/heart.svg" rel="icon" />
     </Head>
     <main className={style.pageContainer}>

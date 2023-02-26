@@ -6,7 +6,6 @@ import ButtonTailwind from 'src/Components/TailwindComponents/ButtonTailwind';
 
 const HomePageLayout = () => (
   <>
-
     <Title
       title="Hello Toshi!"
       subHeading="welcome to your playground bruh"

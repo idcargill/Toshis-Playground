@@ -2,6 +2,6 @@
   margin: auto;
   padding: 2px;
   min-width: 300px;
-  max-height: 100%vh;
-  border: 1px solid chartreuse;
+  height: 100vh;
+  border: 3px solid chartreuse;
 }
