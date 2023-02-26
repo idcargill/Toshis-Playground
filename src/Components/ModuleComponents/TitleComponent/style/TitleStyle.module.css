@@ -1,0 +1,11 @@
+.title {
+  color: chartreuse;
+  background-color: rgb(71, 9, 30);
+  font-weight: 300;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.title h2 {
+  font-size: 50px;
+}

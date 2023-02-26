@@ -1,0 +1,12 @@
+.buttonStyle {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: maroon;
+  color: rgb(252, 241, 241);
+}
+
+.buttonStyle:hover {
+  background-color: magenta;
+  cursor: pointer;
+}
