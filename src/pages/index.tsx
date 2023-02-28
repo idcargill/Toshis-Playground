@@ -8,6 +8,9 @@ const Home = () => (
 
 
 
+
+
+
     <Head>
       <title>Toshi Land</title>
       <meta content="all things toshi" name="a playground for toshi" />
