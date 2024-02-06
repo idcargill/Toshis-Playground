@@ -20,6 +20,10 @@ export const navLinksArray = [
     page: 'Eagle Hawk',
     url: 'https://www.biologicaldiversity.org/species/mammals/American_pika/natural_history.html',
   },
+  {
+    page: 'Hamburger',
+    url: '/hamburger',
+  },
 ];
 
 // Navigation
