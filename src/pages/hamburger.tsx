@@ -1,54 +1,25 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
-
-// CSS For Left position
-const leftStyle = {
-  cursor: 'pointer',
-  'user-select': 'none',
-  '-webkit-user-select': 'none',
-  border: 'none',
-  background: 'none',
-  order: 2,
-
-  '@media (min-width: 992px)': {
-    order: 3,
-    position: 'absolute',
-    top: 'max(calc(50% - 24px), 680px)',
-  },
-};
-
-// CSS for right position
-const rightStyle = {
-  backgroundColor: 'red',
-  position: 'relative',
-  left: '500px',
-};
+import style from '../../styles/hamburger.module.css';
 
 const HamburgerIcon = ({ position }: { position: string }) => {
   if (position === 'left') {
     return (
-      <div>
+      <div className={style.left}>
         <p>Left Hamburger</p>
         <Image
           alt="tasty image open"
           height={300}
           width={400}
           src="hamburger.svg"
-          style={{ ...leftStyle }}
         />
       </div>
     );
   } else {
     return (
-      <div>
+      <div className={style.right}>
         <p>Right Hamburger</p>
-        <Image
-          alt="tasty image"
-          height={300}
-          width={400}
-          src="hamburger.svg"
-          style={{ ...rightStyle }}
-        />
+        <Image alt="tasty image" height={300} width={400} src="hamburger.svg" />
       </div>
     );
   }
@@ -61,7 +32,6 @@ const Hamburger = () => {
     setHamburgerPosition(newState);
   };
 
-  console.log(hamburgerPosition);
   return (
     <div style={{ color: 'white' }}>
       <h1>A Hamburger for Toshi</h1>
@@ -73,9 +43,10 @@ const Hamburger = () => {
           padding: '10px',
           margin: '10px',
           borderRadius: '100px',
+          position: 'relative',
         }}
       >
-        Toggle Hamburger Position
+        State triggered style changes
       </button>
     </div>
   );

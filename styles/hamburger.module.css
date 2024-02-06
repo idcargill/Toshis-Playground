@@ -1,0 +1,16 @@
+.left {
+  background-color: aquamarine;
+  border: 5px solid green;
+  max-width: 50%;
+
+  @media (max-width: 600px) {
+    background-color: chartreuse;
+    position: relative;
+    margin-left: 50%;
+  }
+}
+
+.right {
+  background-color: red;
+  border: none;
+}
